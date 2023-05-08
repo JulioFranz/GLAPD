@@ -1,0 +1,80 @@
+The 1 LAMP primers:
+  F3: pos:11,length:22 bp, primer(5'-3'):CTTAAATCAAGGGTTTTTGAGC
+  F2: pos:33,length:22 bp, primer(5'-3'):GAGTTTTTTGCTCAAAGAATCC
+  F1c: pos:74,length:20 bp, primer(5'-3'):CGCTGAGCCTAACACCCCTA
+  B1c: pos:95,length:21 bp, primer(5'-3'):AGAGTTTGCCAAGCTCTATGC
+  B2: pos:146,length:18 bp, primer(5'-3'):ATGAAATTGGCTTCACGC
+  B3: pos:175,length:18 bp, primer(5'-3'):GGAAAAGGCGATTTTGCG
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 2 LAMP primers:
+  F3: pos:317,length:23 bp, primer(5'-3'):TCTTTTTTTCTTCTAACATGCTG
+  F2: pos:353,length:22 bp, primer(5'-3'):TAATTTCTTCATTACCGCTCTC
+  F1c: pos:404,length:20 bp, primer(5'-3'):GACACGAACTCAAGCCAGGG
+  B1c: pos:424,length:24 bp, primer(5'-3'):GCCATTTTAACCCTTGAGAGTTTG
+  B2: pos:483,length:19 bp, primer(5'-3'):GGCAATAAGGGCTTTGAAG
+  B3: pos:513,length:18 bp, primer(5'-3'):AAGCGATTGAAAGAGCGG
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 3 LAMP primers:
+  F3: pos:618,length:20 bp, primer(5'-3'):CACTCACGTAGTCAAAATGC
+  F2: pos:654,length:18 bp, primer(5'-3'):TAATGGCTCCCAAAACGC
+  F1c: pos:698,length:25 bp, primer(5'-3'):TGCCTTTCATTTTAGAGAGGTTGTT
+  B1c: pos:749,length:24 bp, primer(5'-3'):ATGTCTAAAAGATCCTCATCGCCC
+  B2: pos:810,length:24 bp, primer(5'-3'):TCAATCATATCATCACAGACAGAT
+  B3: pos:854,length:22 bp, primer(5'-3'):AATTACAAGGGAACGAAAGAGT
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 4 LAMP primers:
+  F3: pos:1004,length:20 bp, primer(5'-3'):GGATCAATGTGCGTTTCAGC
+  F2: pos:1029,length:18 bp, primer(5'-3'):ACCCATCAATCCCCACCG
+  F1c: pos:1071,length:20 bp, primer(5'-3'):AGGGGACAGCTCTTTTGCCC
+  B1c: pos:1114,length:20 bp, primer(5'-3'):CGGCATTTGCACGCTATGGG
+  B2: pos:1176,length:19 bp, primer(5'-3'):GTGGTGGATATGCGCTCTT
+  B3: pos:1198,length:20 bp, primer(5'-3'):GCAGCTTTGGGTATGGGAAT
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 5 LAMP primers:
+  F3: pos:1305,length:23 bp, primer(5'-3'):TTAAGACAGAATATTGCATGTCT
+  F2: pos:1328,length:19 bp, primer(5'-3'):TTTGGGTTCATGAATTGCC
+  F1c: pos:1369,length:20 bp, primer(5'-3'):TAGCAGTGAGCCAGACTGAC
+  B1c: pos:1407,length:20 bp, primer(5'-3'):GGCACAAAAACGCTGGGATT
+  B2: pos:1463,length:19 bp, primer(5'-3'):ATGTGCATGAGAGCTATCA
+  B3: pos:1482,length:25 bp, primer(5'-3'):GAATTTGGCTATAAAATCTTAACCG
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 6 LAMP primers:
+  F3: pos:1605,length:20 bp, primer(5'-3'):AATAAAAATCCAACCGCTCG
+  F2: pos:1628,length:18 bp, primer(5'-3'):TTGGCTAGGGGTTGCAAT
+  F1c: pos:1669,length:24 bp, primer(5'-3'):CCATGCGTCATTGAGAGCTTAGAA
+  B1c: pos:1693,length:20 bp, primer(5'-3'):GCCAGCGATTAAAACGGGTT
+  B2: pos:1729,length:25 bp, primer(5'-3'):CAAAGGATAAGTCATGAAAACTTCT
+  B3: pos:1757,length:19 bp, primer(5'-3'):GCCGATTGAAGAAACCATT
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 7 LAMP primers:
+  F3: pos:1919,length:18 bp, primer(5'-3'):GTTCAAACGCTCCGTAAG
+  F2: pos:1950,length:18 bp, primer(5'-3'):GCGAAATGGCTGCTGAAT
+  F1c: pos:2011,length:24 bp, primer(5'-3'):CCCCTTACATTGCAAACTGGATAC
+  B1c: pos:2037,length:25 bp, primer(5'-3'):TTAGCTTTGGTGGTTTCATCATTGA
+  B2: pos:2086,length:18 bp, primer(5'-3'):GTGGGCATAGCGATTGTG
+  B3: pos:2108,length:22 bp, primer(5'-3'):TGTGGGGATTCAAAACTTAATC
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 8 LAMP primers:
+  F3: pos:2483,length:24 bp, primer(5'-3'):GGGGTTATTTTACACTTTAAAGGG
+  F2: pos:2512,length:20 bp, primer(5'-3'):ATGCAATTATGTGTCGCATT
+  F1c: pos:2573,length:25 bp, primer(5'-3'):GCCCATAAATCTAAGCCCTTCAATT
+  B1c: pos:2612,length:23 bp, primer(5'-3'):GATCTTTTATAAGAGACGGGGCG
+  B2: pos:2652,length:25 bp, primer(5'-3'):CTTAAAATTCCCATCAATCTTTCTG
+  B3: pos:2682,length:22 bp, primer(5'-3'):ATCATAGAGCTTCAAATCCAAA
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 9 LAMP primers:
+  F3: pos:2784,length:18 bp, primer(5'-3'):CAAAATCGCGCTAACAGC
+  F2: pos:2804,length:18 bp, primer(5'-3'):TAATGCAACGCTTGAACG
+  F1c: pos:2850,length:21 bp, primer(5'-3'):AAGCTAGTTAAAGCGCTCACG
+  B1c: pos:2871,length:23 bp, primer(5'-3'):TAGCGAAGAGGAATTTTTGAGCG
+  B2: pos:2913,length:22 bp, primer(5'-3'):GCTCAATTTAATCGCTTGAGTT
+  B3: pos:2935,length:18 bp, primer(5'-3'):GCTCTCTTTGCCCATAGC
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1
+The 10 LAMP primers:
+  F3: pos:3087,length:23 bp, primer(5'-3'):CGCTAAAGAGGCTAAACAAAATT
+  F2: pos:3115,length:19 bp, primer(5'-3'):GATTTTATCGTGGTGGGCC
+  F1c: pos:3156,length:24 bp, primer(5'-3'):AGCTCTAAAACCACTTCTCTAGGC
+  B1c: pos:3183,length:23 bp, primer(5'-3'):AAAGGATTGTTAAATGCGGGTGT
+  B2: pos:3233,length:23 bp, primer(5'-3'):GCTTTCTTTCAAACTTTTACGAT
+  B3: pos:3259,length:18 bp, primer(5'-3'):CATAGTCGGCACAAACCC
+  This set of LAMP primers could be used in 1 genomes, there are: NZ_CP071982.1

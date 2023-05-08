@@ -1,0 +1,591 @@
+julio@julio:~/Downloads/GLAPD/bowtie$ ./bowtie-build ./fasta/Helicobacterpylori-GCF_017821535.1_ASM1782153v1_genomic.fna,./fasta/Veillonellaparvula-GCF_900186885.1_48903_D01_genomic.fna,./fasta/Lacticaseibacilluscasei-GCF_000829055.1_ASM82905v1_genomic.fna index
+Settings:
+  Output files: "index.*.ebwt"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 5 (one in 32)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  ./fasta/Helicobacterpylori-GCF_017821535.1_ASM1782153v1_genomic.fna
+  ./fasta/Veillonellaparvula-GCF_900186885.1_48903_D01_genomic.fna
+  ./fasta/Lacticaseibacilluscasei-GCF_000829055.1_ASM82905v1_genomic.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 1677390
+Using parameters --bmax 1258043 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 1258043 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:01
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:00
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:00
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 958508 (target: 1258042)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1256557
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 1256558
+Getting block 2 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1226358
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 1226359
+Getting block 3 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1086045
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 1086046
+Getting block 4 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 583737
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 583738
+Getting block 5 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 738670
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 738671
+Getting block 6 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:01
+  Sorting block of length 968157
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 968158
+Getting block 7 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 850031
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 850032
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 1916813
+fchr[G]: 3356093
+fchr[T]: 4791966
+fchr[$]: 6709561
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 6112154 bytes to primary EBWT file: index.1.ebwt
+Wrote 838700 bytes to secondary EBWT file: index.2.ebwt
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 6709561
+    bwtLen: 6709562
+    sz: 1677391
+    bwtSz: 1677391
+    lineRate: 6
+    linesPerSide: 1
+    offRate: 5
+    offMask: 0xffffffe0
+    isaRate: -1
+    isaMask: 0xffffffff
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 209674
+    offsSz: 838696
+    isaLen: 0
+    isaSz: 0
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 56
+    sideBwtLen: 224
+    numSidePairs: 14977
+    numSides: 29954
+    numLines: 29954
+    ebwtTotLen: 1917056
+    ebwtTotSz: 1917056
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:03
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 1677390
+Using parameters --bmax 1258043 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 1258043 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:00
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 7; iterating...
+  Binary sorting into buckets
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Binary sorting into buckets time: 00:00:01
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 958508 (target: 1258042)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1156244
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 1156245
+Getting block 2 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1215833
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 1215834
+Getting block 3 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1102190
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 1102191
+Getting block 4 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 484030
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 484031
+Getting block 5 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 917426
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 917427
+Getting block 6 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 576769
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 576770
+Getting block 7 of 7
+  Reserving size (1258043) for bucket
+  Calculating Z arrays
+  Calculating Z arrays time: 00:00:00
+  Entering block accumulator loop:
+  10%
+  20%
+  30%
+  40%
+  50%
+  60%
+  70%
+  80%
+  90%
+  100%
+  Block accumulator loop time: 00:00:00
+  Sorting block of length 1257063
+  (Using difference cover)
+  Sorting block time: 00:00:01
+Returning block of 1257064
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 1916813
+fchr[G]: 3356093
+fchr[T]: 4791966
+fchr[$]: 6709561
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 6112154 bytes to primary EBWT file: index.rev.1.ebwt
+Wrote 838700 bytes to secondary EBWT file: index.rev.2.ebwt
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 6709561
+    bwtLen: 6709562
+    sz: 1677391
+    bwtSz: 1677391
+    lineRate: 6
+    linesPerSide: 1
+    offRate: 5
+    offMask: 0xffffffe0
+    isaRate: -1
+    isaMask: 0xffffffff
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 209674
+    offsSz: 838696
+    isaLen: 0
+    isaSz: 0
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 56
+    sideBwtLen: 224
+    numSidePairs: 14977
+    numSides: 29954
+    numLines: 29954
+    ebwtTotLen: 1917056
+    ebwtTotSz: 1917056
+    reverse: 0
+Total time for backward call to driver() for mirror index: 00:00:03
+
+
+
+julio@julio:~/Downloads/GLAPD$ ./Single -in fasta/Helicobacterpylori-GCF_017821535.1_ASM1782153v1_genomic.fna -out test
+It takes 0 seconds to prepare.
+There ara 2010206 candidate primers used as F3/F2/B2/B3.
+There are 1674173 candidate primers used as F1c/B1c.
+It takes 6612 seconds to identify candidate single primer regions.
+julio@julio:~/Downloads/GLAPD$ 
+
+
+
+ulio@julio:~/Downloads/GLAPD$ perl par.pl --in test --ref fasta/Helicobacterpylori-GCF_017821535.1_ASM1782153v1_genomic.fna --bowtie bowtie/bowtie --index bowtie/index --common fasta/target.txt 
+Now the program is handling the 1-th file, total files is 2...
+# reads processed: 1674173
+# reads with at least one reported alignment: 1674173 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 1733111 alignments to 1 output stream(s)
+    In this step, it takes 12 seconds.
+Now the program is handling the 2-th file, total files is 2...
+substr outside of string at par.pl line 311, <IN> line 2010196.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010196.
+substr outside of string at par.pl line 311, <IN> line 2010197.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010197.
+substr outside of string at par.pl line 311, <IN> line 2010198.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010198.
+substr outside of string at par.pl line 311, <IN> line 2010199.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010199.
+substr outside of string at par.pl line 311, <IN> line 2010200.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010200.
+substr outside of string at par.pl line 311, <IN> line 2010201.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010201.
+substr outside of string at par.pl line 311, <IN> line 2010202.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010202.
+substr outside of string at par.pl line 311, <IN> line 2010203.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010203.
+substr outside of string at par.pl line 311, <IN> line 2010204.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010204.
+substr outside of string at par.pl line 311, <IN> line 2010205.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010205.
+substr outside of string at par.pl line 311, <IN> line 2010206.
+Use of uninitialized value $primer in concatenation (.) or string at par.pl line 312, <IN> line 2010206.
+# reads processed: 2010195
+# reads with at least one reported alignment: 2010195 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 2089308 alignments to 1 output stream(s)
+    In this step, it takes 13 seconds.
+
+
+
+
+./LAMP -in test -ref fasta/Helicobacterpylori-GCF_017821535.1_ASM1782153v1_genomic.fna -out saidadoteste.txt -common
+It takes 5 seconds to prepare data.
+Running: amplify 3 target genome.
+Running: amplify 2 target genome.
+Running: amplify 1 target genome.
+It takes 0 seconds to design the 1-th LAMP primer set successfully.
+It takes 0 seconds to design the 2-th LAMP primer set successfully.
+It takes 0 seconds to design the 3-th LAMP primer set successfully.
+It takes 6 seconds to design the 4-th LAMP primer set successfully.
+It takes 0 seconds to design the 5-th LAMP primer set successfully.
+It takes 0 seconds to design the 6-th LAMP primer set successfully.
+It takes 0 seconds to design the 7-th LAMP primer set successfully.
+It takes 0 seconds to design the 8-th LAMP primer set successfully.
+It takes 0 seconds to design the 9-th LAMP primer set successfully.
+It takes 0 seconds to design the 10-th LAMP primer set successfully.
+It takes 0 seconds to free memory.
+
+It takes total 11 seconds to finish this design.
+
+
+
+

@@ -1,0 +1,3 @@
+>NZ_CP071982.1 Helicobacter pylori strain MT5135 chromosome, complete genome
+>NZ_AP012544.1 Lacticaseibacillus casei DSM 20011 = JCM 1134 = ATCC 393 chromosome, complete genome
+>NZ_LT906445.1 Veillonella parvula strain NCTC11810 chromosome 1, complete sequence
